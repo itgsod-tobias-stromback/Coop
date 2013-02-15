@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>String1:</b>
+  <%= @table.string1 %>
+</p>
+
+<p>
+  <b>String2:</b>
+  <%= @table.string2 %>
+</p>
+
+<p>
+  <b>Id:</b>
+  <%= @table.id %>
+</p>
+
+
+<%= link_to 'Edit', edit_table_path(@table) %> |
+<%= link_to 'Back', tables_path %>

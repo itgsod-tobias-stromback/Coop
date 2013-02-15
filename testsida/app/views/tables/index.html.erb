@@ -1,0 +1,25 @@
+<div clas="navbar-inner"><h1>Test</h1></div>
+
+<table>
+  <tr>
+    <th>String1</th>
+    <th>String2</th>
+    <th>Id</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tables.each do |table| %>
+  <tr>
+    <td><%= table.string1 %></td>
+    <td><%= table.string2 %></td>
+    <td><%= table.id %></td>
+    <td><%= link_to 'Show', table %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Admin', admin_dashboard_path %>
