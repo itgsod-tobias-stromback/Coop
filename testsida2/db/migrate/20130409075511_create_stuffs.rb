@@ -7,7 +7,7 @@ class CreateStuffs < ActiveRecord::Migration
       t.integer :int1
       t.integer :int2
       t.integer :int3
-      t.date :datum
+      t.string :datum
 
       t.timestamps
     end
