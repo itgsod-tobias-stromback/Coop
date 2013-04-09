@@ -3,14 +3,40 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
 	background: #eee;
+	margin: 0;
+	padding: 0;
+}
+#content {
+	position: relative;
+	top: 38px;
+	margin: auto;
+	max-width: 720px;
+	background: #eee;
+}
+#header {
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 15px;
+	line-height: 19px;
+	background: #fff;
+	position: relative;
+	max-width: 720px;
+	margin: auto;
+}
+#header_background {
+	width: 100%;
+	background: #fff;
 }
 #logo {
+	top: -10px;
+	text-align: center;
+	position: relative;
 	color: #14AB30;
 	font-family: Coop New;
-	font-size: 72px;
+	font-size: 42px;
 	line-height: 38px;
 	text-indent: 3px;
-	font-weight: 400;
+	font-weight: normal;
 	text-decoration: none;
-	letter-spacing: -6px;
+	letter-spacing: -3px;
 }
