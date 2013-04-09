@@ -1,4 +1,6 @@
 Testsida2::Application.routes.draw do
+  resources :stuffs do as_routes end
+
   get "home/index"
 
   # The priority is based upon order of creation:

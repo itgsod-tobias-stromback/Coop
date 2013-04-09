@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  string1: MyString
+  string2: MyString
+  string3: MyString
+  int1: 1
+  int2: 1
+  int3: 1
+  datum: 2013-04-09
+
+two:
+  string1: MyString
+  string2: MyString
+  string3: MyString
+  int1: 1
+  int2: 1
+  int3: 1
+  datum: 2013-04-09
