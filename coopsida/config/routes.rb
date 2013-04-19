@@ -1,4 +1,8 @@
 Coopsida::Application.routes.draw do
+  resources :owners do as_routes end
+
+  resources :cats do as_routes end
+
   get "home/index"
 
   # The priority is based upon order of creation:
